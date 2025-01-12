@@ -182,9 +182,9 @@ export const Footer = () => {
                 <div className="content-footer-area px-3 md:px-8 mx-auto footers py-8">
                     <div className="why-area grid lg:grid-cols-2 gap-6 lg:gap-36">
                         <div className="left-area-footer-why">
-                            <h1 className="font-bold">{t("Why AMA 777?")}</h1>
+                            <h1 className="font-bold">{t("Why Lucky8?")}</h1>
                             <div className="space-y-3">
-                                <p className="mt-4">{t("The Widest Selection of Games. At AMA 777, we believe that variety is the spice of life. Whether you're a fan of casino games, a sports betting enthusiast, or simply looking for new challenges, we've got you covered. Our gaming hub is constantly updated with the latest and greatest offerings, from card games and slot machines, to competitive sports betting, and more!")}</p>
+                                <p className="mt-4">{t("The Widest Selection of Games. At Lucky8, we believe that variety is the spice of life. Whether you're a fan of casino games, a sports betting enthusiast, or simply looking for new challenges, we've got you covered. Our gaming hub is constantly updated with the latest and greatest offerings, from card games and slot machines, to competitive sports betting, and more!")}</p>
                                 {/* <p className="">{t("Interested in elevating your gaming and earning experience? LuckyGao is offering you a golden opportunity you don't want to miss. Join our affiliate program and earn incredible commissions, up to a staggering 60%, along with enticing incentives and cashback rewards!")}</p> */}
                             </div>
                             <div className="left-area mt-5">
@@ -199,18 +199,18 @@ export const Footer = () => {
                                             href="/"
 
                                         >
-                                            AMA 777
+                                            Lucky8
                                         </a>
                                     </h1>
 
                                     {/* </a> */}
                                 </div>
-                                <p >{t("Welcome to AMA 777")}</p>
+                                <p >{t("Welcome to Lucky8")}</p>
                                 <p>{t("We're not just another name in the online gaming world; we represent the future of entertainment. We bring you a fantastic mix of casino games, sports betting, and a variety of other interactive experiences—all powered by the revolutionary Web3 technology. With LuckyGao, we invite you on a gaming adventure that's both exciting and thrilling, offering an absolute blend of fun and the joy of winning!")}</p>
                             </div>
                             <div className="right-area mt-5">
                                 <h1 className="text-black font-bold mb-5">{t("So what?")}</h1>
-                                <p>{t("Join AMA 777")}</p>
+                                <p>{t("Join Lucky8")}</p>
                             </div >
                             {!isLogin &&
                             <button className="bg-black text-[var(--logoutBg)] mt-5 font-bold py-2 px-4 rounded" onClick={() => signUp()}>
@@ -405,7 +405,7 @@ export const Footer = () => {
 
                     <div className="cols-footer-area grid sm:grid-cols-2 md:grid-cols-3 gap-6 mt-14">
                         <div className="col">
-                            <h1 className="text-black font-bold text-[18px] mb-5">{t("Why Choose AMA 777 Affiliate Program?")}</h1>
+                            <h1 className="text-black font-bold text-[18px] mb-5">{t("Why Choose Lucky8 Affiliate Program?")}</h1>
                             <p>
                                 <span>{t("Highest Commissions")}:</span>{" "}
                                 {t("Earn up to")}
@@ -424,7 +424,7 @@ export const Footer = () => {
                     </div>
 
                     <div className="copyright-area mt-20 pb-4 flex flex-col sm:flex-row gap-4 items-center justify-between mt-8">
-                        <p>© 2024 AMA 777. {t("All rights reserved")}</p>
+                        <p>© 2024 Lucky8. {t("All rights reserved")}</p>
                         <p>{t("Privacy Policy")}</p>
                     </div>
                 </div>
